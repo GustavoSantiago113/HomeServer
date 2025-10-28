@@ -46,9 +46,9 @@ A service running on your Pi creates a secure, outbound connection (a "tunnel") 
 
 1. Sign up for a free Cloudflare account.
 2. Follow their official "Get Started" guide for Tunnels. The process is roughly:
-  1. Add a website to Cloudflare (you can register a cheap domain or use a free one).
-  2. Navigate to Zero Trust -> Access -> Tunnels.
-  3. Create a new tunnel and give it a name.
+    1. Add a website to Cloudflare (you can register a cheap domain or use a free one).
+    2. Navigate to Zero Trust -> Access -> Tunnels.
+    3. Create a new tunnel and give it a name.
 3. Cloudflare will give me a command to run on my Pi to install the cloudflared connector.
 4. Configure the tunnel to point to my local service. For example, I can route traffic from test.mydomain.com to localhost:5000 (or whatever port my Flask app is running on).
 
